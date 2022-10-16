@@ -1,0 +1,19 @@
+{
+    "name": "houd/blog-po",
+    "authors": [
+        {
+            "name": "Aurelien",
+            "email": "aurelien.malaweb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BlogPo\\": "src/",
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "guzzlehttp/psr7": "^2.4",
+        "http-interop/response-sender": "^1.0"
+    }
+}
